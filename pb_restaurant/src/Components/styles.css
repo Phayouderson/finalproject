@@ -1,0 +1,204 @@
+
+
+
+h1,
+h2 {
+  margin: 0;
+  font-family: 'Markazi Text';
+
+}
+
+.text h1 {
+  color: #f4ce14;
+}
+
+.text h2 {
+  color: white;
+  font-family: 'Markazi Text';
+
+}
+
+.text p {
+  color: white;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  max-width: 45ch;
+}
+
+
+
+
+button {
+  color: black;
+  background-color: #f4ce14;
+  padding: 0.5rem;
+  border-radius: 16px;
+  border: none;
+  font-size: 16pt;
+  line-height: 1.5;
+  transition: background-color 0.3s ease;
+}
+
+ button:hover {
+  background-color: #ffa500;
+}
+
+
+
+
+
+
+
+.testimonials-cont {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbdabb;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.article-cont {
+  display: flex;
+}
+
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonials p {
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+
+.text2 p {
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+/*footer {
+  background-color: #edefee;
+  align-items: first baseline;
+  justify-content: space-evenly;
+  border-radius: 16px;
+  border-top: rgb(196, 193, 193) 1px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.Doormat-nav a {
+  color: black;
+  text-decoration: none !important;
+  list-style: none;
+  transition: color 0.3s ease;
+}
+
+.Doormat-nav a:hover {
+  color: #f4ce14;
+}
+
+.Doormat-nav ul {
+  list-style: none;
+}
+
+.social-media-links ul {
+  list-style: none;
+}
+
+.social-media-links a {
+  color: black;
+  text-decoration: none !important;
+  list-style: none;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: #f4ce14;
+}*/
+
+/* Add this CSS to your stylesheets */
+
+form {
+  display: grid;
+  gap: 20px;
+  max-width: 300px;
+  margin: auto;
+  padding-top: 100px;
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.reserveTable {
+  text-align: center;
+padding:  90px 0;
+background-color: #fbdabb;}
+
+.reserveTable h1{
+   color: #333333;
+   padding-bottom: 10px;
+}
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #f4ce14;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input[type="submit"]:hover:not([disabled]) {
+  background-color:#ffa500;
+}
+
+.PageUnderConstruction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

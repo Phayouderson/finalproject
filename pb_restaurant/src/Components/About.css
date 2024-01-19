@@ -1,0 +1,30 @@
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 15px 35px 15px;
+    margin: 10px;
+    padding-top: 90px;
+  }
+  
+  #about img {
+    width: 190pt;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .text2 p {
+    font-family: "Karla", sans-serif;
+    line-height: 1.5;
+    max-width: 60ch;
+  }
+  @media (max-width:900px) {
+    #about {
+        display:block;
+    }
+    #about img {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+  }

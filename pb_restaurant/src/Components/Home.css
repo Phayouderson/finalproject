@@ -1,0 +1,31 @@
+#home {
+    display: flex;
+    background-color: #495e57;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px !important;
+    padding: 15px;
+    margin-bottom: 120px;
+  }
+
+  .text p {
+    padding: 10px 20px 20px 0;
+  }
+  
+  #home img {
+    width: 190pt;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: -10%;
+  }
+  @media (max-width:500px) {
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #home img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }

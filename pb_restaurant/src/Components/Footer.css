@@ -1,0 +1,49 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr ));
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+
+    background-color: #333333;
+    align-items: first baseline;
+    justify-content: space-evenly;
+    border-top: rgb(196, 193, 193) 1px;
+    padding-bottom: 50px;
+  }
+  .hTwo{
+    color: #f4ce14;
+  }
+  .Doormat-nav a {
+    color: #edefee;
+    text-decoration: none !important;
+    list-style: none;
+    transition: color 0.3s ease;
+  }
+  
+  .Doormat-nav a:hover {
+    color: #f4ce14;
+  }
+  
+  .Doormat-nav ul {
+    list-style: none;
+  }
+
+  .contact-details p{
+    color: #edefee;
+  }
+  
+  .social-media-links ul {
+    list-style: none;
+  }
+  
+  .social-media-links a {
+    color: #edefee;
+    text-decoration: none !important;
+    list-style: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #f4ce14;
+  }

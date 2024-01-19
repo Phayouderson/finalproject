@@ -1,0 +1,52 @@
+/* testimonials.css */
+
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: #fbdabb;
+  }
+  
+  h1 {
+    color: #333;
+    font-family: 'Markazi Text';
+}
+  
+  .testimonialsUserProfile {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #edefee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin: 10px 0;
+    max-width: 15ch;
+
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .user-profile {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  @media (max-width:500px) {
+    p {
+        margin: 10px 0;
+        max-width: 150ch;
+    }
+  }
