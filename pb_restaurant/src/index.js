@@ -15,7 +15,7 @@ root.render(
   <HashRouter>
   <Nav/>
      <Routes>
-      <Route path='/' element={<App />} />
+      <Route path='/final-project' element={<App />} />
       <Route path='BookingPage' element={<BookingPage />} />
       <Route path='About' element={<About/>}/>
       <Route path='PageNotFound' element ={<PageNotFind/>}/>
