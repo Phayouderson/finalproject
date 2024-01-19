@@ -5,25 +5,23 @@ import App from './Components/App';
 import Nav from './Components/Nav';
 import About from'./Components/About';
 import Footer from './Components/footer';
-import PageNotFind from './Components/PageNotFind';
+import PageNotFind from './Components/PageNotFound';
 import BookingPage from './Components/BookingPage';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
   <Nav/>
-  <Nav/><Nav/><Nav/><Nav/><Nav/>
      <Routes>
       <Route path='/' element={<App />} />
       <Route path='BookingPage' element={<BookingPage />} />
       <Route path='About' element={<About/>}/>
-      <Route path='PageNotFind' element ={<PageNotFind/>}/>
+      <Route path='PageNotFound' element ={<PageNotFind/>}/>
     </Routes>
   <Footer/>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 reportWebVitals();
