@@ -25,7 +25,7 @@
           <a href="#/about" onClick={closeNav}>About</a>
           </li>
           <li>
-          <a href="#/specials" onClick={closeNav}>Menu</a>
+          <a href="/specials" onClick={closeNav}>Menu</a>
           </li>
           <li>
           <a href="#/bookingPage" onClick={closeNav}>Reservations</a>
