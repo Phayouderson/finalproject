@@ -12,10 +12,10 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <HashRouter hashType="hashbang">
   <Nav/>
      <Routes>
-      <Route path='/final-project' element={<App />} />
+      <Route path='/' element={<App />} />
       <Route path='BookingPage' element={<BookingPage />} />
       <Route path='About' element={<About/>}/>
       <Route path='PageNotFound' element ={<PageNotFind/>}/>
