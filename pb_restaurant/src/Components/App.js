@@ -9,11 +9,9 @@ const App = () => {
 
   return (
     <div>    
-      
       <Home/>
       <Specials/>
       <Testimonials/>
-      
     </div>
   );
 }

@@ -19,7 +19,7 @@
           </div>
       <ul className={`nav-url ${nav ? "active" : ""}`}>
           <li>
-          <a href="/#/" onClick={closeNav}>Home</a>
+          <Link to="/" onClick={closeNav}>Home</Link>
           </li>
           <li>
           <a href="#/about" onClick={closeNav}>About</a>
