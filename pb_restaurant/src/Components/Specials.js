@@ -1,5 +1,7 @@
 import React from "react";
 import GreekSalad from '../Asset/greekSalad.jpg';
+import Bruchetta from '../Asset/bruchetta.svg'
+import LelemonDessert from '../Asset/lemon dessert.jpg'
 import './Specials.css'
 import { Link } from "react-router-dom";
 
@@ -12,15 +14,15 @@ const Specials = () => {
       text: "A delicious salad with feta, olives, and fresh vegetables.",
     },
     {
-      img: 'https://danavento.com/wp-content/uploads/2023/06/Pan-seared-Mackerel-with-zesty-Citrus-salad-on-a-plate-for-dinner-.jpg',
-      name: "Salmon Delight",
-      price: "12.00",
+      img: Bruchetta,
+      name: "Bruchetta",
+      price: "9.99",
       text: "A delicious salad with feta, olives, and fresh vegetables.",
     },
     {
-      img: 'https://hips.hearstapps.com/del.h-cdn.co/assets/17/35/2048x1152/hd-aspect-1504195270-lemon-pepper-chicken.jpg?resize=1200:*',
-      name: "Chicken Supreme",
-      price: "12.00",
+      img: LelemonDessert,
+      name: "Lemon Dessert",
+      price: "5.99",
       text: "A delicious salad with feta, olives, and fresh vegetables.",
     },
   ];
@@ -29,7 +31,9 @@ const Specials = () => {
     <div id="specials">
       <div className="weekSpecials">
         <h1>This Week Specials!</h1>
-        <button>Online Menu</button>
+        <Link to="/PageNotFound">
+            <button>Online Menu</button>
+        </Link>
       </div>
       <div id="menu">
         {menuItems.map((item, index) => (
@@ -41,9 +45,9 @@ const Specials = () => {
           </div>
             <p className="menuText">{item.text}</p>
             <div className="order-delivery">
-            <a href="/PageNotFind">
+            <Link to="/bookingPage">
             <button>Reserve a Table</button>
-          </a>
+          </Link>
             </div>
         </div>
         ))}

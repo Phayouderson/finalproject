@@ -19,6 +19,12 @@
     line-height: 1.5;
     max-width: 60ch;
   }
+  .text2 h1 {
+    color: #495e57;
+  }
+  .text2 h2{
+    color: #f4ce14;
+  }
   @media (max-width:900px) {
     #about {
         display:block;
